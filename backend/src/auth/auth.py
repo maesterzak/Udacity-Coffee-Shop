@@ -10,9 +10,9 @@ import os
 load_dotenv()
 
 
-AUTH0_DOMAIN = os.environ.get("AUTH0_DOMAIN")
-ALGORITHMS = os.environ.get("ALGORITHMS")
-API_AUDIENCE = os.environ.get("API_AUDIENCE")
+AUTH0_DOMAIN = 'az-fsnd.us.auth0.com'
+ALGORITHMS = 'RS256' #os.environ.get("ALGORITHMS")
+API_AUDIENCE ='image' # os.environ.get("API_AUDIENCE")
 
 ## AuthError Exception
 '''
