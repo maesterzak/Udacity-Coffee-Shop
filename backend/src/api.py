@@ -79,11 +79,8 @@ def drink_detail(self):
         }
         )    
 
-    except Exception as e:
-            if isinstance(e, HTTPException):
-                abort(e.code)
-            else:
-                abort(500)        
+    except:
+        abort(500)        
 
     
 
